@@ -24,15 +24,15 @@ if( switchVersion == "1" )
             {
                 //Versione Bonus con math random
                 //--------------------
-                let userName = prompt("Come ti chiami?");
+                let userName_2 = prompt("Come ti chiami?");
 
-                let userLastname = prompt("Qual è il tuo cognome?");
+                let userLastname_2 = prompt("Qual è il tuo cognome?");
 
-                let UserColor =  prompt("Qual è il tuo colore preferito?");
+                let UserColor_2 =  prompt("Qual è il tuo colore preferito?");
                 
                 let random = Math.floor(Math.random() * 100);
 
-                let passwordGenerator_2 = userName + userLastname + UserColor + random;
+                let passwordGenerator_2 = userName_2 + userLastname_2 + UserColor_2 + random;
 
                 console.log(passwordGenerator_2);
             }
